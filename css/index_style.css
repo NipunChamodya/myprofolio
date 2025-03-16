@@ -1,0 +1,55 @@
+/*bdd9bf  2e4052 ffc857 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color : #bdd9bf;
+
+}
+
+.navNipunKarunarathna {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color : #2e4052;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    gap: 50px;
+    border-radius: 90px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+    
+}
+
+.navbarNipunKarunarathna{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    
+
+}
+
+.navbarNipunKarunarathna li {
+    display: inline-block;
+
+    font-size: 18px;
+    
+
+
+    
+
+}
+
+.navbarNipunKarunarathna a {
+    text-decoration: none;
+    color: #ffc857;
+    font-weight: bold;
+}
