@@ -26,7 +26,10 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
     
 }
-/* navcar contains */
+
+
+
+
 .navbarNipunKarunarathna{
     display: flex;
     padding: 0;
@@ -45,6 +48,11 @@ body {
     color: #2e4052;
     font-weight: bold;
 }
+
+
+
+
+
 
 
 .NipunKarunarathnah1{
@@ -101,54 +109,228 @@ body {
 }
 
 
-.NipunKarunarathnatechdiv {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    background-color: aliceblue;
+
+
+
+
+
+.NipunKarunarathnatechslider, .NipunKarunarathnatechslider2 {
+    border: 1px solid #ffc857;
+    width: 90%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 100px;
+    margin-top: 5rem;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 1) 20%,
+        rgba(0, 0, 0, 1) 80%,
+        rgba(0, 0, 0, 0)
+    );
+   
+
 }
 
-.NipunKarunarathnatechdivh{
-    display: flex;
+@keyframes scrollLeft {
+    to {
+        left: -200px;
+    }
+}
+
+.NipunKarunarathnaitem {
+    width: 200px;
+    height: 100px;
+    background-color: #ffc857;
+    border-radius: 6px;
+    position: absolute;
+    left: max(calc(200px * 8), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+
+}
+
+.NipunKarunarathnaitem h1{
+    font-size: 35px;
+    color: #2e4052;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    
+    
+
+}
+
+
+
+.item1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1 );
+
+}
+.item2 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1 );
+    
+}
+.item3 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1 );
+    
+}
+.item4 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1 );
+    
+}
+.item5 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1 );
+    
+}
+.item6 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1 );
+    
+}
+.item7 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1 );
+    
+}
+.item8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1 );
     
 }
 
-.NipunKarunarathnatechdiv h1{
-    font-size: 40px;
-    color: #ffc857;
-    font-weight: bold;
-    margin-right: 10px;
-    align-items: center;
+
+
+
+
+@keyframes scrollRight {
+    to {
+        right: -200px;
+    }
 }
 
-.NipunKarunarathnatechdiv1{
-    padding-top: 50px;
+.NipunKarunarathnaitems {
+    width: 200px;
+    height: 100px;
+    background-color: #ffc857;
+    border-radius: 6px;
+    position: absolute;
+    right: max(calc(200px * 8), 100%);
+    animation-name: scrollRight;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    text-align: center;
+    
+
+
+}
+
+.NipunKarunarathnaitems h1{
+    font-size: 35px;
+    color: #2e4052;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    
+    
+
+}
+
+.items1 {
+    animation-delay: calc(30s / 6 * (6 - 1) * -1 );
+
+}
+.items2 {
+    animation-delay: calc(30s / 6 * (6 - 2) * -1 );
+    
+}
+.items3 {
+    animation-delay: calc(30s / 6 * (6 - 3) * -1 );
+    
+}
+.items4 {
+    animation-delay: calc(30s / 6 * (6 - 4) * -1 );
+    
+}
+.items5 {
+    animation-delay: calc(30s / 6 * (6 - 5) * -1 );
+    
+}
+.items6 {
+    animation-delay: calc(30s / 6 * (6 - 6) * -1 );
+
+}
+
+
+
+.NipunKarunarathnaabout {
+    height: 100vh;
+    padding-top: 80px;
+}
+
+.NipunKarunarathnaleft {
+    background: #ffc857;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-     
+    height: 100vh;
 }
 
-.NipunKarunarathnatechdiv1 li {
-    display: inline-block;
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffc857;
-    margin: 10px;
-}
-
-.NipunKarunarathnatechdiv2{
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
+.NipunKarunarathnaaboutleft-content > div {
+    background: #ffc857;
+    padding: 4rem 4rem 2.5rem 5rem;
+    text-align: center;
 
 }
 
-.NipunKarunarathnatechdiv2 li {
-        display: inline-block;
-        font-size: 20px;
-        font-weight: bold;
-        color: #ffc857;
-        margin: 10px;
+.NipunKarunarathnaaboutleft-content {
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+
 }
+
+.NipunKarunarathnaaboutleft-img img{
+    display: block;
+    width: 200px;
+}
+
+.NipunKarunarathnaaboutleft-img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition : all 0.5s ease-in-out;
+}
+
+.shadow {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.shadow::after {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    height: 7px;
+    width: 50px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+/* https://youtu.be/gh-PsrUAcmo?si=j6-SMdXl3-RNLkyP */
