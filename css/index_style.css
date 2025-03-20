@@ -330,7 +330,57 @@ body {
     filter: blur(3px);
     -webkit-filter: blur(3px);
     opacity: 0;
-    transition: all 0.5s ease;
+    transition: all 0.6s ease;
 }
 
 /* https://youtu.be/gh-PsrUAcmo?si=j6-SMdXl3-RNLkyP */
+
+.shadow:hover .NipunKarunarathnaaboutleft-img{
+    transform: translateY(-10px);
+
+}
+
+.shadow:hover::after {
+    opacity: 1;
+}
+
+.NipunKarunarathnaaboutleft-content h2{
+    font-size: 2rem;
+    margin: 2.2rem 0 0.6rem 0;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #2e4052;
+
+
+}
+
+.NipunKarunarathnaaboutleft-content h3{
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-top: 1.2rem;
+}
+
+.NipunKarunarathnaaboutleft-social {
+    background: #2e4052;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0;
+}
+
+.NipunKarunarathnaaboutleft-social li {
+    list-style-type: none;
+    background: #ffc857;
+    color: #2e4052;
+    width: 40px;
+    height: 40px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+
+}
