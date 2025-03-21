@@ -1,0 +1,386 @@
+/*bdd9bf  2e4052 ffc857 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color : #2e4052;
+
+}
+/* navbar */
+.navNipunKarunarathna {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color : #ffc857;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    gap: 40px;
+    border-radius: 90px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+    
+}
+
+
+
+
+.navbarNipunKarunarathna{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbarNipunKarunarathna li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbarNipunKarunarathna a {
+    text-decoration: none;
+    color: #2e4052;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.NipunKarunarathnah1{
+    padding-top: 60px;
+    display: flex;
+    font-size: 40px;
+    color: #ffc857;
+    justify-content: center;
+    
+}
+
+.NipunKarunarathnaps{
+    padding-top: 10px;
+    display: flex;
+    font-size: 20px;
+    color: #bdd9bf;
+    justify-content: center;
+}
+
+.NipunKarunarathnabutton {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.Nipun_Karunarathna_Resume_PDF {
+    text-decoration: none;
+    background-color: #ffc857;
+    color: #2e4052;
+    font-size: 20px;
+    font-weight: 1000;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block; 
+
+}
+
+.NipunKarunarathnaicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.NipunKarunarathnaicons img {
+    padding-top: 10px;
+    width: 850px;
+    height: auto;
+
+}
+
+
+
+
+
+
+
+.NipunKarunarathnatechslider, .NipunKarunarathnatechslider2 {
+    border: 1px solid #ffc857;
+    width: 90%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 100px;
+    margin-top: 5rem;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 1) 20%,
+        rgba(0, 0, 0, 1) 80%,
+        rgba(0, 0, 0, 0)
+    );
+   
+
+}
+
+@keyframes scrollLeft {
+    to {
+        left: -200px;
+    }
+}
+
+.NipunKarunarathnaitem {
+    width: 200px;
+    height: 100px;
+    background-color: #ffc857;
+    border-radius: 6px;
+    position: absolute;
+    left: max(calc(200px * 8), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+
+}
+
+.NipunKarunarathnaitem h1{
+    font-size: 35px;
+    color: #2e4052;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    
+    
+
+}
+
+
+
+.item1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1 );
+
+}
+.item2 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1 );
+    
+}
+.item3 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1 );
+    
+}
+.item4 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1 );
+    
+}
+.item5 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1 );
+    
+}
+.item6 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1 );
+    
+}
+.item7 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1 );
+    
+}
+.item8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1 );
+    
+}
+
+
+
+
+
+@keyframes scrollRight {
+    to {
+        right: -200px;
+    }
+}
+
+.NipunKarunarathnaitems {
+    width: 200px;
+    height: 100px;
+    background-color: #ffc857;
+    border-radius: 6px;
+    position: absolute;
+    right: max(calc(200px * 8), 100%);
+    animation-name: scrollRight;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    text-align: center;
+    
+
+
+}
+
+.NipunKarunarathnaitems h1{
+    font-size: 35px;
+    color: #2e4052;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    
+    
+
+}
+
+.items1 {
+    animation-delay: calc(30s / 6 * (6 - 1) * -1 );
+
+}
+.items2 {
+    animation-delay: calc(30s / 6 * (6 - 2) * -1 );
+    
+}
+.items3 {
+    animation-delay: calc(30s / 6 * (6 - 3) * -1 );
+    
+}
+.items4 {
+    animation-delay: calc(30s / 6 * (6 - 4) * -1 );
+    
+}
+.items5 {
+    animation-delay: calc(30s / 6 * (6 - 5) * -1 );
+    
+}
+.items6 {
+    animation-delay: calc(30s / 6 * (6 - 6) * -1 );
+
+}
+
+
+
+.NipunKarunarathnaabout {
+    height: 100vh;
+    padding-top: 80px;
+}
+
+.NipunKarunarathnaleft {
+    background: #ffc857;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.NipunKarunarathnaaboutleft-content > div {
+    background: #ffc857;
+    padding: 4rem 4rem 2.5rem 5rem;
+    text-align: center;
+
+}
+
+.NipunKarunarathnaaboutleft-content {
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+
+}
+
+.NipunKarunarathnaaboutleft-img img{
+    display: block;
+    width: 200px;
+}
+
+.NipunKarunarathnaaboutleft-img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition : all 0.5s ease-in-out;
+}
+
+.shadow {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.shadow::after {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    height: 7px;
+    width: 50px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+/* https://youtu.be/gh-PsrUAcmo?si=j6-SMdXl3-RNLkyP */
+
+.shadow:hover .NipunKarunarathnaaboutleft-img{
+    transform: translateY(-10px);
+
+}
+
+.shadow:hover::after {
+    opacity: 1;
+}
+
+.NipunKarunarathnaaboutleft-content h2{
+    font-size: 2rem;
+    margin: 2.2rem 0 0.6rem 0;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #2e4052;
+
+
+}
+
+.NipunKarunarathnaaboutleft-content h3{
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-top: 1.2rem;
+}
+
+.NipunKarunarathnaaboutleft-social {
+    background: #2e4052;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0;
+}
+
+.NipunKarunarathnaaboutleft-social li {
+    list-style-type: none;
+    background: #ffc857;
+    color: #2e4052;
+    width: 40px;
+    height: 40px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+
+}
