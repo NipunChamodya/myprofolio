@@ -1,0 +1,26 @@
+name: CI for Portfolio Website
+
+on:
+  push:
+    branches:
+      - main # change this if your branch is different
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v3
+
+      - name: 🧪 Check HTML (optional)
+        run: |
+          echo "Simulating HTML check..."
+          if grep -iq '<html' index.html; then
+            echo "HTML looks good!"
+          else
+            echo "Warning: No HTML tag found"
+          fi
+
+      - name: ✅ CI Done
+        run: echo "Static site CI finished."
