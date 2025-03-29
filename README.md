@@ -74,7 +74,7 @@ myprofolio/
 ## Contact
 
 #### Feel free to explore, star ⭐ the repo, and reach out if you'd like to collaborate!
- - Message me on [LinkedIn] (https://www.linkedin.com/in/nipunchamodya)
+ - Message me on [LinkedIn] (https://www.linkedin.com/in/nipun-karunarathna2002/)
  - Or reach out via my website: [nipun.online] (https://nipun.online)
 
 
